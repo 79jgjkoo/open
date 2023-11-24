@@ -1,5 +1,5 @@
 do 
-    local Box = game.CoreGui:FindFirstChild("Box1") if Box then 
+    local Box = game.CoreGui:FindFirstChild("Box") if Box then 
         Box1:Destory()
         end
     end
