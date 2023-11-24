@@ -1,7 +1,12 @@
+do 
+    local Box = game.CoreGui:FindFirstChild("Box1") if Box then 
+        Box1:Destory()
+        end
+    end
 local Box = Instance.new("ScreenGui")
 local Box1 = Instance.new("TextButton")
 Box.Name = "Box"
-Box.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Box.Parent = game.CoreGui
 Box.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Box1.Name = "Box1"
 Box1.Parent = Box
