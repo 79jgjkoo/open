@@ -6,7 +6,7 @@ do
 local Box = Instance.new("ScreenGui")
 local Box1 = Instance.new("TextButton")
 Box.Name = "Box"
-Box.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Box.Parent = game.CoreGui
 Box.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Box1.Name = "Box1"
 Box1.Parent = Box
