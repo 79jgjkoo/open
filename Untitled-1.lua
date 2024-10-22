@@ -20,6 +20,6 @@ Box1.Text = "OPEN/CLOSE"
 Box1.TextColor3 = Color3.fromRGB(85, 255, 0)
 Box1.TextSize = 14.000
 Box1.MouseButton1Click:Connect(function()
-game.CoreGui:FindFirstChild("ScreenGui").Enabled = not game.CoreGui:FindFirstChild("ScreenGui").Enabled
+game.CoreGui:FindFirstChild("Orion").Enabled = not game.CoreGui:FindFirstChild("Orion").Enabled
 end)
 UICorner.Parent = Box1
